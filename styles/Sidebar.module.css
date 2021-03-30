@@ -1,0 +1,50 @@
+.container {
+   position: fixed;
+   z-index: 999;
+   width: 100%;
+   height: 100%;
+   background-color: #252525;
+   display: grid;
+   align-items: center;
+   top: 0;
+   right: 0;
+   transition: 0.3s ease-in-out;
+}
+
+.closeIcon {
+   color: #bf9b5e;
+}
+
+.closeIconCon {
+   position: absolute;
+   top: 1.2rem;
+   right: 1.5rem;
+   background: transparent;
+   font-size: 2rem;
+   cursor: pointer;
+   outline: none;
+}
+
+.wrapper {
+   color: #fff;
+}
+
+.item {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.5rem;
+   text-decoration: none;
+   list-style: none;
+   transition: 0.2s ease-in-out;
+   text-decoration: none;
+   color: #fff;
+   cursor: pointer;
+   padding-bottom: 20px;
+   padding-top: 20px;
+}
+
+.item:hover .link {
+   color: #bf9b5e;
+   transition: 0.2s ease-in-out;
+}
