@@ -20,7 +20,7 @@ const Sidebar = ({toggle}) => {
                         <a onClick={toggle} className={sideStyle.link}>Shop</a>
                     </div>
                 </Link>
-                <Link href='/service'>
+                <Link href='/services'>
                     <div className={sideStyle.item}>
                         <a onClick={toggle} className={sideStyle.link}>Service</a>
                     </div>
